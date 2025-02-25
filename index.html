@@ -3,89 +3,420 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boycott Brands</title>
+    <title>Trump Supporting Companies</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-        }
-        nav a {
-            color: white;
-            padding: 1rem;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        .container {
-            padding: 2rem;
-        }
-        .tab-content {
-            display: none;
-        }
-        .tab-content.active {
-            display: block;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            background: white;
-            margin: 0.5rem 0;
-            padding: 1rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* A light greyish background */
+}
+
+header {
+    background-color: #003366; /* Deep blue */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #d50032; /* Bold red */
+}
+
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #002f6c; /* Darker blue for hover effect */
+}
+
+.container {
+    padding: 2rem;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.05); /* Slightly increase the size */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* More prominent shadow for shine effect */
+    background-color: #f4f4f4; /* Light grey background on hover */
+}
+
     </style>
 </head>
 <body>
     <header>
-        <h1>Boycott Brands</h1>
+        <h1>Businesses Backing Trump</h1>
     </header>
     <nav>
-        <a href="#" onclick="showTab('corporate')">Corporate</a>
-        <a href="#" onclick="showTab('political')">Political Ties</a>
-        <a href="#" onclick="showTab('ethical')">Ethical Concerns</a>
+        <a href="#" onclick="showTab('groceries')">Groceries</a>
+        <a href="#" onclick="showTab('news')">News Outlets</a>
+        <a href="#" onclick="showTab('tech')">Technology</a>
+        <a href="#" onclick="showTab('misc')">Misc Businesses</a>
     </nav>
     
     <div class="container">
-        <section id="corporate" class="tab-content active">
-            <h2>Corporate</h2>
+        <section id="groceries" class="tab-content active">
+            <h2>Groceries</h2>
+<ul>
+    <li><b>Charles G. Koch</b>, CEO<br>Donated at least $9.6 million to Project 2025 groups since 2020
+        <ul>
+            <li>Georgia-Pacific
+                <ul>
+                    <li>Brawny (paper towels)</li>
+                    <li>Dixie (cups)</li>
+                    <li>AngelSoft (toilet paper)</li>
+                    <li>Quilted Northern (toilet paper)</li>
+                    <li>Aria (toilet paper)</li>
+                    <li>Sparkle (paper towels)</li>
+                    <li>Vanity Fair (napkins)</li>
+                    <li><a href="https://www.kochinc.com/companies">Many other non-customer facing businesses</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><b>The Coors Family</b><br>Donated at least $2.7 million to Project 2025 groups since 2020
+        <ul>
+            <li>Molson Coors
+                <ul>
+                    <li>Arizona Hard</li>
+                    <li>Arnold Palmer Spiked</li>
+                    <li>Black Ice</li>
+                    <li>Blue Moon</li>
+                    <li>Coors</li>
+                    <li>Keystone</li>
+                    <li>Leinenkugel’s</li>
+                    <li>Miller</li>
+                    <li>Redd’s</li>
+                    <li>Simply Spiked</li>
+                    <li>TopoChico</li>
+                    <li>Vizzy</li>
+                    <li><a href="https://www.molsoncoors.com/brands/our-brands">Many others</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li><b>British American Tobacco</b><br>$10 million to Make America Great Again Inc
+        <ul>
+            <li>Reynolds American
+                <ul>
+                    <li>Newport</li>
+                    <li>Camel</li>
+                    <li>Pall Mall</li>
+                    <li>Kent</li>
+                    <li>Doral</li>
+                    <li>Misty</li>
+                    <li>Capri</li>
+                    <li>Natural American Spirit</li>
+                    <li>Grizzly</li>
+                    <li>Kodiak</li>
+                    <li>Vuse</li>
+                    <li>Velo</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><b>Jimmy John Liautaud</b>, CEO<br>$3.1 million to Trump groups
+        <ul>
+            <li>Jimmy John's</li>
+        </ul>
+    </li>
+
+
+    <li><b>Amazon</b>, Tech Corporation<br>$1 million to Trump.
+        <ul>
+            <li>Whole Foods</li>
+            <li>The Washington Post</li>
+            <li>Twitch</li>
+            <li>Audible</li>
+            <li>Zappos</li>
+            <li>Ring</li>
+            <li>IMDb</li>
+        </ul>
+    </li>
+    <li><b>Amazon</b>, Tech Corporation<br>$1 million to Trump.
+        <ul>
+            <li>Whole Foods</li>
+        </ul>
+    </li>
+    <li><b>Altria</b>, Tobacco Corporation<br>$1 million to Trump.
+        <ul>
+            <li>Philip Morris USA</li>
+            <ul></ul>
+            <li>Marlboro</li>
+            <li>Parliament</li>
+            <li>Ste. Michelle Wine Estates</li>
+            <li>Chateau Ste. Michelle</li>
+            <li>Columbia Crest</li>
+            <li>Juul</li>
+            <li>UST</li>
+            <li>Copenhagen</li>
+            <li>Skoal</li>
+            <li><a href="https://en.wikipedia.org/wiki/Philip_Morris_USA#Brands">Several more</a></li>
+            </ul>
+        </ul>
+    </li>
+    <li><b>Johnson & Johnson</b><br>Donated $1 million to Trump
+    <ul>
+        <li>Tylenol</li>
+        <li>Motrin</li>
+        <li>Sudafed</li>
+        <li>Benadryl</li>
+        <li>Zyrtec</li>
+        <li>Listerine</li>
+        <li>Neutrogena</li>
+        <li>Johnson's Baby Products</li>
+        <li>Aveeno</li>
+        <li>Acuvue</li>
+        <li>Band-Aid</li>
+        <li>Neosporin</li>
+        <li>Stayfree Pads</li>
+        <li>Carefree Pantyliners</li>
+        <li>o.b. Tampons</li>
+        <li>Imodium</li>
+        <li>Rogaine</li>
+        <li><a href="https://www.thomasnet.com/insights/johnson-and-johnson-brands/">MANY more</a></li>
+    </ul>
+</li>
+<li><b>Abbott Laboratories</b><br>Donated $500,000 to Trump
+    <ul>
+        <li>Ensure</li>
+        <li>Pedialyte</li>
+    </ul>
+    </li>
+    <li><b>Coca Cola</b><br>Donated $250,000 to Trump
+    <ul>
+        <li>Minute Maid</li>
+        <li>Simply</li>
+        <li>Dasani</li>
+        <li>Smartwater</li>
+        <li>Powerade</li>
+        <li>Gold Peak</li>
+        <li>Honest Tea</li>
+        <li>Monster Energy</li>
+        <li>Vitaminwater</li>
+        <li>Glacéau</li>
+        <li>Fanta</li>
+        <li>Sprite</li>
+        <li>Schweppes</li>
+        <li><a href="https://en.wikipedia.org/wiki/List_of_Coca-Cola_brands">MANY more</a></li>
+    </ul>
+</li>
+
+<li><b>Instacart</b><br>Donated $100,000 to Trump</li>
+<li><b>Bob Unanue</b><br>Endorsed Trump<br>Goya Foods</li>
+<li><b>Logan Paul</b><br>Endorsed Trump<br>Prime (sports drink)</li>
+<li><b>Troy Link</b><br>Donated $500,000 to Trump<br>Jack Link’s</li>
+<li><b>DeVos family</b><br>Donated $2 million to Trump
+    <ul>
+        <li>Amway/Alticor Inc</li>
+        <li>Nutrilite</li>
+    </ul>
+</li>
+<li><b>Florida Crystals</b><br>Donated $1 million to Trump</li>
+</ul>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <section id="news" class="tab-content">
+            <h2>News Outlets</h2>
             <ul>
-                <li>Brand 1</li>
-                <li>Brand 2</li>
+    <li><b>The Scaife Family</b><br>At least $21.5 million to Project 2025 groups since 2020
+        <ul>
+            <li>Pittsburgh Tribune-Review</li>
+    </li>
+    </ul>
+    <li><b>Amazon</b>, Tech Corporation<br>$1 million to Trump.
+        <ul>
+            <li>The Washington Post</li>
+        </ul>
+    </li>
             </ul>
         </section>
         
-        <section id="political" class="tab-content">
-            <h2>Political Ties</h2>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <section id="tech" class="tab-content">
+            <h2>Technology</h2>
             <ul>
-                <li>Brand A</li>
-                <li>Brand B</li>
+             <li><b>Elon Musk</b>, CEO<br>At least $290 million to Trump. Currently running the country along side Trump.
+        <ul>
+            <li>X (Twitter)</li>
+            <li>SpaceX</li>
+            <li>Tesla</li>
+        </ul>
+    </li>
+    <li><b>Robinhood</b>, Financial Services<br>$2 million to Trump inaugural fund.
+    </li>
+        <li><b>Sam Altman</b>, CEO of OpenAI<br>$1 million to Trump.
+        <ul>
+            <li>OpenAI</li>
+        </ul>
+    </li>
+        <li><b>Meta</b>, Tech Corporation<br>$1 million to Trump.
+        <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>WhatsApp</li>
+            <li>Oculus</li>
+        </ul>
+    </li>
+    <li><b>Uber</b>, Ridesharing Company<br>$1 million to Trump.
+    </li>
+    <li><b>Coinbase</b>, Cryptocurrency Platform<br>$1 million to Trump.
+    </li>
+        <li><b>Amazon</b>, Tech Corporation<br>$1 million to Trump.
+        <ul>
+            <li>Twitch</li>
+            <li>Audible</li>
+            <li>Ring</li>
+            <li>IMDb</li>
+        </ul>
+    </li>
+    <li><b>AT&T</b><br>Donated $1 million to Trump
+    <ul>
+        <li>DirecTV</li>
+        <li>Cricket Wireless</li>
+    </ul>
+</li>
+
+<li><b>Comcast</b><br>Donated $1 million to Trump
+    <ul>
+        <li>Xfinity</li>
+        <li>NBC</li>
+        <li>Universal Pictures</li>
+        <li>Peacock</li>
+    </ul>
+</li>
+
+<li><b>Verizon</b><br>Donated $1 million to Trump
+    <ul>
+        <li>Yahoo</li>
+        <li>AOL</li>
+        <li>TracFone</li>
+        <li>StraightTalk</li>
+    </ul>
+</li>
+
+<li><b>Intuit</b><br>Donated $1 million to Trump
+    <ul>
+        <li>TurboTax</li>
+        <li>QuickBooks</li>
+        <li>Mint</li>
+        <li>Credit Karma</li>
+    </ul>
+</li>
+<li><b>PayPal</b><br>Donated $250,000 to Trump
+    <ul>
+        <li>Venmo</li>
+    </ul>
+</li>
+<li><b>Airbnb</b><br>Donated $100,000 to Trump</li>
+<li><b>Spotify</b><br>Donated $150,000 to Trump</li>
+<li><b>Lookout Inc.</b><br>Donated $500,000 to Trump<br>Lookout Mobile Security</li>
+
             </ul>
         </section>
         
-        <section id="ethical" class="tab-content">
-            <h2>Ethical Concerns</h2>
-            <ul>
-                <li>Brand X</li>
-                <li>Brand Y</li>
-            </ul>
-        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <section id="misc" class="tab-content">
+            <h2>Misc Businesses</h2>
+            <ul>        
+            <li><b>Chevron</b>, Oil Corporation<br>$2 million to Trump's inauguration.
+        <ul>
+            <li>Chevron</li>
+            <li>Texaco</li>
+        </ul>
+    </li>
+    <li><b>Roger Penske</b>, CEO of Penske Corporation<br>$1.1 million to Trump.
+        <ul>
+            <li>Penske Truck Rentals</li>
+        </ul>
+    </li>
+
+    <li><b>ExxonMobil</b>, Oil Corporation<br>$1 million to Trump.
+        <ul>
+            <li>Exxon</li>
+            <li>Mobil</li>
+            <li>Esso</li>
+        </ul>
+    </li>
+        <li><b>Amazon</b>, Tech Corporation<br>$1 million to Trump.
+        <ul>
+            <li>Zappos</li>
+        </ul>
+    </li>
+    <li><b>Dave Portnoy</b><br>Endorsed Trump<br>Barstool Sports</li>
+<li><b>Mike Lindell</b><br>Endorsed Trump<br>MyPillow</li>
+<li><b>Ryan Cohen</b><br>Endorsed Trump<br>GameStop</li>
+<li><b>Dana White</b><br>Endorsed Trump<br>UFC</li>
+<li><b>Primerica</b><br>Donated $5,000,000 to Trump</li>
+    </ul>
+    <li><b>Woody Johnson</b><br>Donated $2 million to Trump<br>New York Jets</li>
     </div>
 
     <script>
